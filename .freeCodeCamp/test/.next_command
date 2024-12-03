@@ -189,3 +189,7 @@ ls --color=auto
 psql --username=freecodecamp --dbname=postgres
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 ls --color=auto
+git push
+ls --color=auto
+git remote add origin https://github.com/SalamiASB/coding-submisstions
+git add .
