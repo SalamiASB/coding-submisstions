@@ -187,3 +187,5 @@ psql -U postgres < universe.sql
 rm universe.sql
 ls --color=auto
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+ls --color=auto
